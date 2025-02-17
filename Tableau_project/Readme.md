@@ -25,7 +25,6 @@ Contains individual reviews with fields including author, date, place, and multi
 ### Countries CSV:
 A country mapping table used to link review locations with geographic information (continent, region) for enhanced filtering.
 
-
 ## Dashboard Creation Process
 
 ### Data Connection & Preparation
