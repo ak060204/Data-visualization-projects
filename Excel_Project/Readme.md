@@ -1,4 +1,4 @@
-# Project Overview
+# Excel Project Overview
 ### What I’m Doing: 
 Creating an interactive Excel dashboard to analyze a dataset of bike buyers. <a href = "https://github.com/ak060204/Data-visualization-projects/blob/main/Excel_Project/Excel_Dashboard_ScreenShot.png"> view Dashboard </a>
 
