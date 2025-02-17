@@ -1,4 +1,4 @@
-# Tableau Interactive Dashboard Project
+# Tableau Project: British Airways Reviews Dashboard Ratings & Insights 
 
 This project is an end-to-end interactive dashboard built in Tableau using British Airways review data. I designed the dashboard to allow end users to dynamically select metrics and apply filters to explore various service ratings and trends.
 <a href="https://github.com/ak060204/Data-visualization-projects/blob/main/Tableau_project/Tableau_Project.png"> View Dashboard </a>
