@@ -1,7 +1,7 @@
-#Tableau Interactive Dashboard Project
+# Tableau Interactive Dashboard Project
 
 This project is an end-to-end interactive dashboard built in Tableau using British Airways review data. I designed the dashboard to allow end users to dynamically select metrics and apply filters to explore various service ratings and trends.
-##Project Overview
+## Project Overview
 •	What I’m Doing:
 I created an interactive Tableau dashboard that aggregates and visualizes British Airways review data.
 •	Project Focus:
@@ -11,13 +11,13 @@ o	How do average ratings for different service categories vary by country, month
 o	What insights can be drawn about customer feedback from the reviews?
 o	Which metrics stand out and how do they trend over time?
 
-##Datasets Used
+## Datasets Used
 •	BA Reviews CSV:
 Contains individual reviews with fields including author, date, place, and multiple rating metrics (e.g., overall rating, cabin staff, food, ground service, etc.).
 •	Countries CSV:
 A country mapping table used to link review locations with geographic information (continent, region) for enhanced filtering.
 
-##Dashboard Creation Process
+## Dashboard Creation Process
 Data Connection & Preparation
 •	Connecting Data:
 Imported two CSV files (BA Reviews and Countries) and established a relationship between the place field in BA Reviews and the country field in Countries.
@@ -29,7 +29,7 @@ Created a parameter, "Pick a Metric," as a single-value list with options such a
 •	Calculated Field:
 Developed a calculated field using a CASE statement that returns the selected metric's rating based on the parameter choice.
 
-##Visualizations
+## Visualizations
 •	Interactive Map (Average Custom Metric by Country): 
 o	Plotted the map using the place field.
 o	Colored the map based on the average value of the selected metric.
@@ -46,7 +46,7 @@ o	Adjusted axis titles and formatted colors (using a contrasting pink for review
 o	Developed a text-based summary showing key measures (average overall rating, average cabin staff service, average food, etc.).
 o	Reformatted the values (one decimal place) and rearranged them with average overall rating as the primary metric.
 
-##Filters & Interactivity
+## Filters & Interactivity
 •	Filters Implemented: 
 o	Date Filter: Set as a continuous month filter to allow time-based analysis.
 o	Traveler Type & Seat Type Filters: Configured as single-value dropdowns for streamlined user experience.
@@ -55,7 +55,7 @@ o	Continent Filter: Added as a single-value dropdown to filter the map by region
 •	Interactivity:
 Configured visual elements (e.g., maps and charts) to act as filters when clicked, enabling users to drill down into specific data segments.
 
-##Dashboard Assembly & Formatting
+## Dashboard Assembly & Formatting
 •	Layout & Design: 
 o	Employed a floating layout for greater flexibility in spacing and alignment.
 o	Added a dashboard title ("British Airways Reviews") and positioned summary metrics at the top.
@@ -66,7 +66,7 @@ o	Adjusted tooltips to display only necessary information (e.g., actual metric v
 o	Standardized font sizes, alignment, and color schemes across the dashboard.
 o	Published the dashboard to Tableau Public for easy sharing and portfolio display.
 
-##Insights & Findings
+## Insights & Findings
 •	Country & Service Ratings:
 The map visualization shows how different countries rate various service categories, revealing regional variations in customer satisfaction.
 •	Trend Analysis:
@@ -76,7 +76,7 @@ The dual bar chart provides insights into which aircraft groups receive higher r
 •	Overall Discoveries:
 The dashboard clearly demonstrates that customer ratings vary significantly across different dimensions (country, time, aircraft), and it offers a powerful tool for exploring these variations interactively.
 
-##Final Thoughts
+## Final Thoughts
 •	Project Value:
 This project showcases my ability to build a dynamic, interactive Tableau dashboard that combines multiple data sources and visualizations.
 •	Learning Outcomes:
