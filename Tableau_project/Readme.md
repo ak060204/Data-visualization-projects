@@ -33,7 +33,7 @@ Imported two CSV files (BA Reviews and Countries) and established a relationship
 •	Geographical Role Assignment:
 Converted the place field to a geographic role (Country/Region) to enable map visualizations.
 
-###Dynamic Metric Selection
+### Dynamic Metric Selection
 •	Parameter Setup:
 Created a parameter, "Pick a Metric," as a single-value list with options such as overall rating, cabin staff service, entertainment, food, ground service, seat comfort, and value for money.
 
@@ -41,22 +41,28 @@ Created a parameter, "Pick a Metric," as a single-value list with options such a
 Developed a calculated field using a CASE statement that returns the selected metric's rating based on the parameter choice.
 
 ### Visualizations
-•	Interactive Map (Average Custom Metric by Country): 
+#### Interactive Map (Average Custom Metric by Country): 
 o	Plotted the map using the place field.
+
 o	Colored the map based on the average value of the selected metric.
+
 o	Customized tooltips to display the country, selected metric value, and number of reviews.
+
 o	Applied a custom green color (hex: #013220) for consistency.
 
-•	Line Chart (Average Custom Metric by Month): 
+#### Line Chart (Average Custom Metric by Month): 
 o	Created a line chart showing the trend of the average selected metric over continuous months.
+
 o	Formatted the chart by removing gridlines and excessive decimal places, and aligning the text for clarity.
 
-•	Dual Bar Chart (Average Custom Metric by Aircraft): 
+#### Dual Bar Chart (Average Custom Metric by Aircraft): 
 o	Built a dual bar chart comparing the average selected metric and the count of reviews for each aircraft group.
+
 o	Grouped aircraft with low review counts into a single “Various” category.
+
 o	Adjusted axis titles and formatted colors (using a contrasting pink for review count) for better visual differentiation.
 
-•	Summary Metrics Sheet: 
+#### Summary Metrics Sheet: 
 o	Developed a text-based summary showing key measures (average overall rating, average cabin staff service, average food, etc.).
 o	Reformatted the values (one decimal place) and rearranged them with average overall rating as the primary metric.
 
