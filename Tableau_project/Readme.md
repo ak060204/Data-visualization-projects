@@ -64,5 +64,57 @@ o	Adjusted axis titles and formatted colors (using a contrasting pink for review
 
 #### Summary Metrics Sheet: 
 o	Developed a text-based summary showing key measures (average overall rating, average cabin staff service, average food, etc.).
+
 o	Reformatted the values (one decimal place) and rearranged them with average overall rating as the primary metric.
+
+## Filters & Interactivity
+### Filters Implemented: 
+o	Date Filter: Set as a continuous month filter to allow time-based analysis.
+
+o	Traveler Type & Seat Type Filters: Configured as single-value dropdowns for streamlined user experience.
+
+o	Aircraft Filter: Grouped less common aircraft into “Various” and set as a single-value dropdown.
+
+o	Continent Filter: Added as a single-value dropdown to filter the map by region.
+
+### Interactivity:
+Configured visual elements (e.g., maps and charts) to act as filters when clicked, enabling users to drill down into specific data segments.
+
+## Dashboard Assembly & Formatting
+### Layout & Design: 
+o	Employed a floating layout for greater flexibility in spacing and alignment.
+
+o	Added a dashboard title ("British Airways Reviews") and positioned summary metrics at the top.
+
+o	Organized filters in a vertical container and arranged visualizations (map, line chart, dual bar chart) in a clean, cohesive layout.
+
+o	Included a separation line between filters and dashboard content for visual clarity.
+
+### inal Touches: 
+o	Adjusted tooltips to display only necessary information (e.g., actual metric values, number of reviews).
+
+o	Standardized font sizes, alignment, and color schemes across the dashboard.
+
+o	Published the dashboard to Tableau Public for easy sharing and portfolio display.
+
+## Insights & Findings
+### Country & Service Ratings:
+The map visualization shows how different countries rate various service categories, revealing regional variations in customer satisfaction.
+### Trend Analysis:
+The line chart displays the fluctuation of average ratings over time, helping identify periods with higher or lower customer satisfaction.
+### Aircraft Performance:
+The dual bar chart provides insights into which aircraft groups receive higher ratings and how many reviews each group has, highlighting performance differences.
+### Overall Discoveries:
+The dashboard clearly demonstrates that customer ratings vary significantly across different dimensions (country, time, aircraft), and it offers a powerful tool for exploring these variations interactively.
+
+## Final Thoughts
+### Project Value:
+This project showcases my ability to build a dynamic, interactive Tableau dashboard that combines multiple data sources and visualizations.
+### Learning Outcomes:
+I gained practical experience in parameter creation, calculated fields, and advanced filtering techniques in Tableau.
+### Future Improvements:
+While the dashboard is fully functional, further data cleaning and additional customizations could enhance its precision and visual appeal.
+### Portfolio Impact:
+This project is a strong addition to my portfolio, demonstrating my proficiency in data visualization and my ability to turn raw data into actionable insights.
+
 
