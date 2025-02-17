@@ -1,26 +1,28 @@
 # Tableau Interactive Dashboard Project
 
 This project is an end-to-end interactive dashboard built in Tableau using British Airways review data. I designed the dashboard to allow end users to dynamically select metrics and apply filters to explore various service ratings and trends.
-
+<a href="https://github.com/ak060204/Data-visualization-projects/blob/main/Tableau_project/Tableau_Project.png"> View Dashboard </a>
 ## Project Overview
 
-•	What I’m Doing:
+### What I’m Doing:
 I created an interactive Tableau dashboard that aggregates and visualizes British Airways review data.
 
-•	Project Focus:
+### Project Focus:
 The dashboard enables users to toggle between different service metrics (overall rating, cabin staff service, food, entertainment, ground service, seat comfort, and value for money) and apply filters such as date, seat type, traveler type, aircraft, and continent.
 
-•	Key Questions Addressed: 
+### Key Questions Addressed: 
 o	How do average ratings for different service categories vary by country, month, and aircraft?
+
 o	What insights can be drawn about customer feedback from the reviews?
+
 o	Which metrics stand out and how do they trend over time?
 
 ## Datasets Used
 
-•	BA Reviews CSV:
+### BA Reviews CSV:
 Contains individual reviews with fields including author, date, place, and multiple rating metrics (e.g., overall rating, cabin staff, food, ground service, etc.).
 
-•	Countries CSV:
+### Countries CSV:
 A country mapping table used to link review locations with geographic information (continent, region) for enhanced filtering.
 
 
@@ -81,6 +83,9 @@ o	Continent Filter: Added as a single-value dropdown to filter the map by region
 Configured visual elements (e.g., maps and charts) to act as filters when clicked, enabling users to drill down into specific data segments.
 
 ## Dashboard Assembly & Formatting
+
+![Tableau_Project](https://github.com/user-attachments/assets/a20dae89-6067-4253-afd0-2c80b1de524b)
+
 ### Layout & Design: 
 o	Employed a floating layout for greater flexibility in spacing and alignment.
 
