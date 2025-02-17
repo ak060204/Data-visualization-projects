@@ -6,4 +6,4 @@ Welcome to the Data Visualization Project repository! This repository serves as 
 
 <a href = "https://github.com/ak060204/Data-visualization-projects/tree/main/PowerBI_Project">Power BI Project</a>: This folder showcases my work using Power BI, including the development of dashboards, reports, and other visual analytics. Power BI is used for transforming raw data into actionable insights.
 
-Tableau Project: This folder includes projects created using Tableau, a powerful data visualization software. Here, you'll find projects demonstrating my ability to connect to various data sources and create dynamic, interactive visualizations and dashboards.
+<a href = "https://github.com/ak060204/Data-visualization-projects/tree/main/Tableau_project">Tableau Project</a>: This folder includes projects created using Tableau, a powerful data visualization software. Here, you'll find projects demonstrating my ability to connect to various data sources and create dynamic, interactive visualizations and dashboards.
