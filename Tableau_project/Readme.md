@@ -1,4 +1,5 @@
 #Tableau Interactive Dashboard Project
+
 This project is an end-to-end interactive dashboard built in Tableau using British Airways review data. I designed the dashboard to allow end users to dynamically select metrics and apply filters to explore various service ratings and trends.
 ##Project Overview
 •	What I’m Doing:
@@ -9,11 +10,13 @@ The dashboard enables users to toggle between different service metrics (overall
 o	How do average ratings for different service categories vary by country, month, and aircraft?
 o	What insights can be drawn about customer feedback from the reviews?
 o	Which metrics stand out and how do they trend over time?
+
 ##Datasets Used
 •	BA Reviews CSV:
 Contains individual reviews with fields including author, date, place, and multiple rating metrics (e.g., overall rating, cabin staff, food, ground service, etc.).
 •	Countries CSV:
 A country mapping table used to link review locations with geographic information (continent, region) for enhanced filtering.
+
 ##Dashboard Creation Process
 Data Connection & Preparation
 •	Connecting Data:
@@ -25,6 +28,7 @@ Dynamic Metric Selection
 Created a parameter, "Pick a Metric," as a single-value list with options such as overall rating, cabin staff service, entertainment, food, ground service, seat comfort, and value for money.
 •	Calculated Field:
 Developed a calculated field using a CASE statement that returns the selected metric's rating based on the parameter choice.
+
 ##Visualizations
 •	Interactive Map (Average Custom Metric by Country): 
 o	Plotted the map using the place field.
@@ -41,6 +45,7 @@ o	Adjusted axis titles and formatted colors (using a contrasting pink for review
 •	Summary Metrics Sheet: 
 o	Developed a text-based summary showing key measures (average overall rating, average cabin staff service, average food, etc.).
 o	Reformatted the values (one decimal place) and rearranged them with average overall rating as the primary metric.
+
 ##Filters & Interactivity
 •	Filters Implemented: 
 o	Date Filter: Set as a continuous month filter to allow time-based analysis.
@@ -49,6 +54,7 @@ o	Aircraft Filter: Grouped less common aircraft into “Various” and set as a 
 o	Continent Filter: Added as a single-value dropdown to filter the map by region.
 •	Interactivity:
 Configured visual elements (e.g., maps and charts) to act as filters when clicked, enabling users to drill down into specific data segments.
+
 ##Dashboard Assembly & Formatting
 •	Layout & Design: 
 o	Employed a floating layout for greater flexibility in spacing and alignment.
