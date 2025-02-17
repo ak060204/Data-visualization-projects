@@ -84,6 +84,9 @@ o	The gauge chart revealed varied perceptions of difficulty, with many rating it
 
 ## Final Thoughts
 •	This project provided a hands-on opportunity to work with real survey data using Power BI.
+
 •	While the data cleaning was kept at a basic level for this project, it highlighted the importance of standardizing free-text responses and numeric ranges.
+
 •	The dashboard delivers actionable insights into the professional landscape of data practitioners and can be further enhanced with more in-depth cleaning and additional analysis.
+
 •	I am confident this project adds value to my portfolio and demonstrates my ability to work with real-world data and build interactive dashboards in Power BI.
