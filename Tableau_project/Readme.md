@@ -1,7 +1,7 @@
 # Tableau Project: British Airways Reviews Dashboard Ratings & Insights 
 
 This project is an end-to-end interactive dashboard built in Tableau using British Airways review data. I designed the dashboard to allow end users to dynamically select metrics and apply filters to explore various service ratings and trends.
-<a href="https://github.com/ak060204/Data-visualization-projects/blob/main/Tableau_project/Tableau_Project.png"> View Dashboard </a>
+<a href="[https://github.com/ak060204/Data-visualization-projects/blob/main/Tableau_project/Tableau_Project.png](https://public.tableau.com/app/profile/asveen.krishnan.n/viz/BritishAirwaysReviewsDashboardRatingsInsightsinTableau/Dashboard1)"> View Dashboard </a>
 ## Project Overview
 
 ### What I’m Doing:
@@ -94,7 +94,7 @@ o	Organized filters in a vertical container and arranged visualizations (map, li
 
 o	Included a separation line between filters and dashboard content for visual clarity.
 
-### inal Touches: 
+### Final Touches: 
 o	Adjusted tooltips to display only necessary information (e.g., actual metric values, number of reviews).
 
 o	Standardized font sizes, alignment, and color schemes across the dashboard.
